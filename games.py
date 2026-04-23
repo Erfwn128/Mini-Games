@@ -1,4 +1,4 @@
-def creatPassword(sala): # ساختن پسورد تصادفی توسط ربات
+def creatPassword(sala): # Generate a random password
     import string, random
 
     while True:
@@ -15,7 +15,7 @@ def creatPassword(sala): # ساختن پسورد تصادفی توسط ربات
         if answer == 'n':
             break
 #---------------------------------------------------
-def guessRandomNumber(): # ایجاد یک عدد تصادفی و حدس آن عدد توسط کاربر
+def guessRandomNumber(): # Generates a random number and asks the user to guess that number.
     import random
 
     # Create list for round number and  return best round guess
@@ -75,7 +75,7 @@ def guessRandomNumber(): # ایجاد یک عدد تصادفی و حدس آن ع
 
         again_playing = finished(random_number, counter)
 #---------------------------------------------------
-def rps(): # بازی سنگ، کاغذ، قیچی
+def rps(): # Rock, Paper, Scissors
     import random
 
     around = 1
@@ -122,7 +122,7 @@ def rps(): # بازی سنگ، کاغذ، قیچی
     elif client_score < computer_score:
         print("The ultimate winner of this mini-game is the {computer}.")
 #---------------------------------------------------
-def betting(): # شرط بندی اگر تاس زوج باشه یا فرد
+def betting(): # Betting on the odd or even number of dice
     import random
 
     user_coin = 100
