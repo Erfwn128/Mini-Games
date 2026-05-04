@@ -48,7 +48,6 @@ def hangman(): # Guess the computer's chosen word
             chance -= 1
             score -= 5
 
-
         if ''.join(word_hide) == animal_cpu:
             print(f"✅ You managed to find the word in round {around}")
             print(f"Your's score is: {score}")
